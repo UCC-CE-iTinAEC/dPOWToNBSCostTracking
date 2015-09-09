@@ -76,32 +76,32 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Xbim.COBie, Version=3.0.5651.25626, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Exchange.3.0.81.6\lib\net45\Xbim.COBie.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Xbim.COBie.dll</HintPath>
     </Reference>
     <Reference Include="Xbim.COBieLite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Exchange.3.0.81.6\lib\net45\Xbim.COBieLite.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Xbim.COBieLite.dll</HintPath>
     </Reference>
     <Reference Include="Xbim.COBieLiteUK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Exchange.3.0.81.6\lib\net45\Xbim.COBieLiteUK.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Xbim.COBieLiteUK.dll</HintPath>
     </Reference>
     <Reference Include="Xbim.COBieLiteUK.Validation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Exchange.3.0.81.6\lib\net45\Xbim.COBieLiteUK.Validation.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Xbim.COBieLiteUK.Validation.dll</HintPath>
     </Reference>
     <Reference Include="Xbim.Common, Version=3.0.5620.24387, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xbim.Essentials.3.0.20\lib\net45\Xbim.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xbim.DPoW, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Exchange.3.0.81.6\lib\net45\Xbim.DPoW.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Xbim.DPoW.dll</HintPath>
     </Reference>
     <Reference Include="Xbim.Exchanger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Exchange.3.0.81.6\lib\net45\Xbim.Exchanger.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Xbim.Exchanger.dll</HintPath>
     </Reference>
     <Reference Include="Xbim.Geometry.Engine.Interop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xbim.Geometry.3.0.21\lib\net45\Xbim.Geometry.Engine.Interop.dll</HintPath>
@@ -134,6 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="Dlls\Xbim.COBie.dll" />
+    <Content Include="Dlls\Xbim.COBieLite.dll" />
+    <Content Include="Dlls\Xbim.COBieLiteUK.dll" />
+    <Content Include="Dlls\Xbim.COBieLiteUK.Validation.dll" />
+    <Content Include="Dlls\Xbim.DPoW.dll" />
+    <Content Include="Dlls\Xbim.Exchanger.dll" />
     <Content Include="ExampledPOWFiles\007-NBS_Lakeside_Restaurant.dpow" />
     <None Include="packages.config" />
   </ItemGroup>
